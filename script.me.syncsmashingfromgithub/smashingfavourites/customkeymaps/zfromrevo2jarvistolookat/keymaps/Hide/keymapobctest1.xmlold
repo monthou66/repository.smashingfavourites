@@ -1,0 +1,56 @@
+<keymap>
+<global>
+    <universalremote> 
+ <obc1>left</obc1>
+ <obc2>right</obc2>
+ <obc3></obc3>
+ <obc4></obc4>
+ <obc5></obc5>
+ <obc6></obc6>
+ <obc7></obc7>
+ <obc8></obc8>
+ <obc9></obc9>
+ <obc10></obc10>
+ <obc11></obc11>
+ <obc12></obc12>
+ <obc13></obc13>
+ <obc14></obc14>
+ <obc15></obc15>
+ <obc16></obc16>
+ <obc17></obc17>
+ <obc18></obc18>
+ <obc19></obc19>
+ <obc20></obc20>
+ <obc21></obc21>
+ <obc22></obc22>
+ <obc23></obc23>
+ <obc24></obc24>
+ <obc25></obc25>
+ <obc26></obc26>
+ <obc27></obc27>
+ <obc28></obc28>
+ <obc29></obc29>
+ <obc30></obc30>
+ <obc31></obc31>
+ <obc32></obc32>
+ <obc33></obc33>
+ <obc34></obc34>
+ <obc35></obc35>
+ <obc36></obc36>
+ <obc37></obc37>
+ <obc38></obc38>
+ <obc39></obc39>
+ <obc40></obc40>
+ <obc41></obc41>		
+ <obc42></obc42>
+ <obc43></obc43>
+ <obc44></obc44>		
+ <obc45></obc45>
+ <obc46></obc46>
+ <obc47></obc47>		
+ <obc48></obc48>
+ <obc49></obc49>
+ <obc50>RunScript(script.restartkodi)</obc50> 
+    </universalremote>
+</global>
+</keymap>

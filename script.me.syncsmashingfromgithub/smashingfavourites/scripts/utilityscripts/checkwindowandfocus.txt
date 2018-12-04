@@ -1,0 +1,29 @@
+Window:progressdialog(DialogConfirm.xml)				10101
+
+Focused: 10(button)
+
+
+
+
+Running checkwindowandfocus.py
+
+name = xbmc.getInfoLabel('currentwindow')
+print ("Current window is %s" % name)					Current window is currentwindow
+
+control = xbmc.getInfoLabel('System.CurrentControl')
+print ("Current control is %s" % control) 				Current control is Favourites
+
+win = xbmcgui.Window(xbmcgui.getCurrentWindowId())
+print ("Current window id is %s" % win)					Current window id is <xbmcgui.Window object at 0x0C9CEE00>
+
+window = xbmcgui.getCurrentWindowId()
+print ("window is %s" % window)							window is 10000
+
+focus = win.getFocusId()
+print ("Focus is %s" % focus)							Focus is 21
+
+vis = xbmc.getCondVisibility('Window.IsVisible(10134)')
+print ("Favourites window is %s visible" % fav)			Favourites window is  visible
+
+dialog = xbmcgui.getCurrentWindowDialogId()
+print ('CurrentWindowDialogID is %s'% dialog)			CurrentWindowDialogID is 10134

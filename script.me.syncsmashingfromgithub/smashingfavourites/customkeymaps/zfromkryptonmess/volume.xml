@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keymap>
+  <Home>
+    <keyboard>
+      <pageup>VolumeUp</pageup>
+      <pagedown>VolumeDown</pagedown>
+    </keyboard>
+    <remote>
+      <pageplus>VolumeUp</pageplus>
+      <pageminus>VolumeDown</pageminus> 
+    </remote>	
+  </Home>  
+  <FullscreenVideo>
+    <keyboard>
+      <pageup>VolumeUp</pageup>
+      <pagedown>VolumeDown</pagedown>
+    </keyboard>
+    <remote>
+      <pageplus>VolumeUp</pageplus>
+      <pageminus>VolumeDown</pageminus> 
+    </remote>
+  </FullscreenVideo> 
+</keymap>
+
+
+
+
+

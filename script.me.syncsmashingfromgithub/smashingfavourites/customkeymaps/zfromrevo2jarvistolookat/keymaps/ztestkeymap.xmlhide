@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keymap>
+	<home>
+     <remote>
+       <one>Up</one>	   
+     </remote>
+    <keyboard>
+       <one>Up</one>    
+    </keyboard>	 
+	</home>
+</keymap>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keymap>
+  <MyFiles>
+    <keyboard>
+       <right mod="longpress">RunScript(special://masterprofile/smashing/smashingfavourites/scripts/smashingfavourites.py, letters)</right>      
+    </keyboard>
+    <remote>
+       <right mod="longpress">RunScript(special://masterprofile/smashing/smashingfavourites/scripts/smashingfavourites.py, letters)</right> 
+    </remote>	
+  </MyFiles>
+  <MyMusicFiles>
+    <keyboard>
+       <right mod="longpress">RunScript(special://masterprofile/smashing/smashingfavourites/scripts/smashingfavourites.py, letters)</right>      
+    </keyboard>
+    <remote>
+       <right mod="longpress">RunScript(special://masterprofile/smashing/smashingfavourites/scripts/smashingfavourites.py, letters)</right> 
+    </remote>
+  </MyMusicFiles>
+  <MyMusicLibrary>
+    <keyboard>
+       <right mod="longpress">RunScript(special://masterprofile/smashing/smashingfavourites/scripts/smashingfavourites.py, letters)</right>      
+    </keyboard>
+    <remote>
+       <right mod="longpress">RunScript(special://masterprofile/smashing/smashingfavourites/scripts/smashingfavourites.py, letters)</right> 
+    </remote>
+  </MyMusicLibrary>  
+  <MyVideoLibrary>
+    <keyboard>
+       <right mod="longpress">RunScript(special://masterprofile/smashing/smashingfavourites/scripts/smashingfavourites.py, letters)</right>      
+    </keyboard>
+    <remote>
+       <right mod="longpress">RunScript(special://masterprofile/smashing/smashingfavourites/scripts/smashingfavourites.py, letters)</right> 
+    </remote>
+  </MyVideoLibrary>  
+  <MyVideoFiles>
+    <keyboard>
+       <right mod="longpress">RunScript(special://masterprofile/smashing/smashingfavourites/scripts/smashingfavourites.py, letters)</right>      
+    </keyboard>
+    <remote>
+       <right mod="longpress">RunScript(special://masterprofile/smashing/smashingfavourites/scripts/smashingfavourites.py, letters)</right> 
+    </remote>
+  </MyVideoFiles>  
+</keymap>

@@ -1,0 +1,91 @@
+2017.3.08
+added service.me.stuff to miscfiles/myaddons
+new smashingfavourites.py - keeps general favourites in userdata, rest in pathsubs/userdata
+new advsettings.xml with more pathsubs (but not for addons / addon_data - be careful) - in miscfiles for now
+Added a bunch of scripts to SF/scripts/utilityscripts/back - to sort out
+put getgroups.py in SF/scripts/tvscripts - first attempt, gets list of tv groups from kodi.old.log
+new smashingtv.py - allows shortcuts by name as well as numbers
+added zztempsmashingfavouriteskeyboard.xml to pathsubs/userdata/keymaps
+edited dialogbuttonmenu.xml from xonfluence (first go) - save these in miscfiles?  Also need 'fake' addons to operate this, and a marker to check it's working.
+added install folder, started install scripts to test
+
+
+
+
+2017.2.22
+changed paths in smashingfavourites.py.
+Need to remove favourites.xml from all pathsubs in advsettings (conflicts with favourites.py)
+updated pathchanges.txt
+Added options / actors as favourites, updated options / choose.
+added actors and years to icons folder
+zdefaultsmashingfavourites.xml
+
+2017.2.21
+enableaddons.py updated - remove error / add on-screen info
+
+2017.2.18
+options/kodifunctions and options/utilities updsated
+scripts/keymaps/reloadkeymaps.py added
+
+2017.1.31:
+***************
+edited advancedsettings.xml files:
+change names and labels in advancedsettings:
+- to get rid of BR3 / BE2
+- add new ones
+- include os of host machine in foldername and last lines
+- pathsubs for actor thumbs to smashingfavourites
+- pathsubs for favourites.xml to smashingfavourites
+- pathsubs for playlists to smashingfavourites
+- pathsubs for userdata/library to smashingfavourites?
+- pathsubs for keymaps to smashingfavourites?
+- pathsubs for sources.xml to smashingfavourites
+- pathsubs for mediasources.xml to smashingfavourites
+Maybe lose:
+            <actorthumbs>false</actorthumbs>
+name(lastline):
+- what it can be put on (all/windows/linux/specific hostname)
+- where drives are (local or hostname)
+- local or mysql(plus hostname) database
+- drives used (BR1, Br2 / portable / Tosh5TB)
+- host os (windows / linux)
+
+Edited workingadvancedsettings.py line 45 to add 'hostos'
+************************
+
+**************
+put smashingspecifics folder inside smashingfavourites - done, adjusted scripts
+
+put smashingspecifics folder inside smashingfavourites
+needs file in smashingspecifics to say which to use, and options for windows, android, le on pi's / amlogic / pc
+SMASHINGSPECIFICS = os.path.join(USERDATA, "smashing", "smashingspecifics")
+SOURCESPECS=/flash/stuff/backups/smashing/smashingspecifics/*
+TARGETSPECS=/storage/.kodi/userdata/smashing/smashingspecifics
+SOURCESPECS=/flash/stuff/backups/smashing/smashingspecifics/*
+TARGETSPECS=/storage/.kodi/userdata/smashing/smashingspecifics
+    TARGETSPECS=/$drive/.kodi/userdata/smashing/smashingspecifics
+    TARGETSPECS=/$drive/.kodi/userdata/smashing/smashingspecifics
+SOURCESPECS=/storage/.kodi/userdata/smashing/smashingspecifics
+TARGETSPECS=/flash/stuff/backups/smashing/smashingspecifics
+SOURCESPECS=/storage/.kodi/userdata/smashing/smashingspecifics/*
+SMASHINGSPECIFICS = os.path.join(USERDATA, "smashing", "smashingspecifics")
+elif src == 'smashingspecifics':
+    elif dest == 'smashingspecifics':
+        source = '/flash/stuff/backups/storage/.kodi/userdata/smashing/smashingspecifics'
+SMASHINGSPECIFICS = os.path.join(USERDATA, "smashing", "smashingspecifics")
+SMASHINGSPECIFICS = os.path.join(USERDATA, "smashing", "smashingspecifics")
+SMASHINGSPECIFICS = os.path.join(USERDATA, "smashing", "smashingspecifics")
+SMASHINGSPECIFICS = os.path.join(USERDATA, "smashing", "smashingspecifics")
+SOURCESPECS=/flash/stuff/backups/smashing/smashingspecifics/*
+TARGETSPECS=/storage/.kodi/userdata/smashing/smashingspecifics
+SOURCESPECS=/flash/stuff/backups/smashing/smashingspecifics/*
+TARGETSPECS=/storage/.kodi/userdata/smashing/smashingspecifics
+    TARGETSPECS=/$drive/.kodi/userdata/smashing/smashingspecifics
+    TARGETSPECS=/$drive/.kodi/userdata/smashing/smashingspecifics
+SOURCESPECS=/flash/stuff/backups/smashing/smashingspecifics/*
+TARGETSPECS=/storage/.kodi/userdata/smashing/smashingspecifics
+SOURCESPECS=/flash/stuff/backups/smashing/smashingspecifics/*
+TARGETSPECS=/storage/.kodi/userdata/smashing/smashingspecifics
+    TARGETSPECS=/$drive/.kodi/userdata/smashing/smashingspecifics
+    TARGETSPECS=/$drive/.kodi/userdata/smashing/smashingspecifics
+**************

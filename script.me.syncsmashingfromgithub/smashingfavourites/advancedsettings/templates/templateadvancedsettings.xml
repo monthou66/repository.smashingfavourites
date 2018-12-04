@@ -1,0 +1,165 @@
+<advancedsettings>
+        <locale>
+            <country>UK (12h)</country>
+            <language>English</language>
+            <timezone>Europe/Paris</timezone>
+            <timezonecountry>France</timezonecountry>
+        </locale>
+        <lookandfeel>
+            <enablerssfeeds>false</enablerssfeeds>
+        </lookandfeel>
+		<pathsubstitution>
+			<substitute>
+			<from>smb://Source Cartoons</from>
+			<to>SourceCartoons</to>														<!--setdrives-->
+			</substitute>		
+			<substitute>
+			<from>smb://Source Films</from>
+			<to>SourceFilms</to>														<!--setdrives-->
+			</substitute>			
+			<substitute>
+			<from>smb://Source Home videos</from>
+			<to>SourceHomevideos</to>													<!--setdrives-->
+			</substitute>	
+			<substitute>
+			<from>smb://Source Music Videos</from>
+			<to>SourceMusicVideos</to>													<!--setdrives-->
+			</substitute>
+			<substitute>
+			<from>smb://Source Science and Nature</from>
+			<to>SourceScienceandNature</to>												<!--setdrives-->
+			</substitute>			
+			<substitute>
+			<from>smb://Source Sport</from>
+			<to>SourceSport</to>														<!--setdrives-->
+			</substitute>			
+			<substitute>
+			<from>smb://SourceTV1series</from>
+			<to>SourceTV1series</to>													<!--setdrives-->
+			</substitute>
+			<substitute>
+			<from>smb://SourceTV2completedseries</from>
+			<to>SourceTV2completedseries</to>											<!--setdrives-->
+			</substitute>			
+			<substitute>
+			<from>smb://SourceTV3sharedseries</from>
+			<to>SourceTV3sharedseries</to>												<!--setdrives-->
+			</substitute>
+			<substitute>
+			<from>smb://SourceTV4completedsharedseries</from>
+			<to>SourceTV4completedsharedseries</to>										<!--setdrives-->
+			</substitute>			
+			<substitute>
+			<from>smb://SourceTV5seriesLiam</from>
+			<to>SourceTV5seriesLiam</to>												<!--setdrives-->
+			</substitute>						
+			<substitute>
+			<from>smb://Source Music</from>
+			<to>SourceMusic</to>														<!--setdrives-->
+			</substitute>
+			<substitute>
+			<from>smb://Source oddsandendsone</from>
+			<to>Sourceoddsandendsone</to>												<!--setdrives-->
+		    </substitute>
+			<substitute>
+			<from>smb://Source oddsandendstwo</from>
+			<to>Sourceoddsandendstwo</to>												<!--setdrives-->
+		    </substitute>
+			<substitute>
+			<from>smb://Source oddsandendsthree</from>
+			<to>Sourceoddsandendsthree</to>												<!--setdrives-->
+		    </substitute>
+			<substitute>
+			<from>smb://Source oddsandendsfour</from>
+			<to>Sourceoddsandendsfour</to>												<!--setdrives-->
+		    </substitute>			
+            <substitute>
+            <from>special://masterprofile/playlists/</from>
+            <to>special://masterprofile/smashing/smashingfavourites/pathsubs/userdata/playlists/</to>	
+            </substitute>
+            <substitute>
+            <from>special://masterprofile/sources.xml</from>
+            <to>special://masterprofile/smashing/smashingfavourites/pathsubs/userdata/sources.xml</to>
+            </substitute>
+            <substitute>
+            <from>special://masterprofile/mediasources.xml</from>
+            <to>special://masterprofile/smashing/smashingfavourites/pathsubs/userdata/mediasources.xml</to>
+            </substitute>
+            <substitute>
+            <from>special://masterprofile/favourites.xml</from>
+            <to>special://masterprofile/smashing/smashingfavourites/pathsubs/userdata/favourites.xml</to>
+            </substitute>
+            <substitute>
+            <from>special://masterprofile/library</from>
+            <to>special://masterprofile/smashing/smashingfavourites/pathsubs/userdata/library</to>
+            </substitute>
+            <substitute>
+            <from>special://masterprofile/keymaps</from>
+            <to>special://masterprofile/smashing/smashingfavourites/pathsubs/userdata/keymaps</to>
+            </substitute>
+            <substitute>
+            <from>smb://Source smashingartwork</from>
+            <to>Sourcesmashingartwork</to>												<!--setextra-->
+            </substitute>
+            <substitute>
+            <from>smb://Source Install Folder</from>
+            <to>SourceInstallFolder</to>												<!--setextra-->
+            </substitute>
+	            <substitute>
+            <from>smb://Source GooglePhotos</from>
+            <to>SourceGooglePhotos</to>													<!--setextra-->
+            </substitute>
+            <substitute>
+            <from>smb://SourceTVRecordings</from>
+            <to>SourceTVRecordings</to>													<!--setextra-->
+            </substitute>
+	            <substitute>
+            <from>smb://SourceTVTimeshift</from>
+            <to>SourceTVTimeshift</to>													<!--setextra-->
+            </substitute>
+		</pathsubstitution>
+        <subtitles>
+            <languages default="true">English</languages>
+            <movie default="true">false</movie>
+            <tv default="true">false</tv>
+        </subtitles>
+        <videolibrary>
+            <actorthumbs>true</actorthumbs>
+            <backgroundupdate>false</backgroundupdate>
+            <flattentvshows>1</flattentvshows>
+            <groupmoviesets>true</groupmoviesets>
+            <seasonthumbs>true</seasonthumbs>
+            <showunwatchedplots>true</showunwatchedplots>
+        </videolibrary>
+		<loglevel>1</loglevel><!-- "1" > debug without on-screen text; "0" > normal logging; "-1" > no log. -->
+        <debug>
+            <screenshotpath>special://masterprofile/smashing/smashingfavourites/miscfiles/screenshots</screenshotpath>
+        </debug>
+</advancedsettings>
+<!--setting.host= -->
+<!--setting.platform= -->
+<!--setting.driveshost= -->
+<!--setting.drives= -->
+<!--setting.locallibrary= -->			<!-- optional  -->
+<!--setting.mysql= -->			    	<!-- optional  -->
+<!--setting.mysqlip= -->				<!-- optional  -->
+<!--setting.mysqluser= -->				<!-- optional  -->
+<!--setting.mysqlpass= -->				<!-- optional  -->
+<!--setting.mysqlname= -->				<!-- optional  -->
+<!--setting.log= -->					<!-- optional  -->
+<!--setting.extraoption1= -->			<!-- optional  -->
+<!--setting.extraoption2= -->			<!-- optional  -->
+<!--setting.extraoption3= -->			<!-- optional  -->
+<!--setting.extraoption4= -->			<!-- optional  -->
+<!--setting.extraoption5= -->			<!-- optional  -->
+<!--endsettings-->						<!-- add any settings to be read above here -->
+source machine:				use <!--   --> here
+sourcemachine
+localormysql:
+databasetype
+drives:
+mediadrives
+platform:
+os
+windows.localdrives.localdb.Tosh5TB.hostoswindows
+os.driveslocation.databasetype.mediadrives.hostplatform

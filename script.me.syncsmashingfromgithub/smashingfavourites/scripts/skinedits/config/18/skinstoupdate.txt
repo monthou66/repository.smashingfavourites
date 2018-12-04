@@ -1,0 +1,17 @@
+# This file lists skins to be updated by buildcustomskindialogs.py
+# Required format is:
+# skin id,  relevant output folder,  name of folder to place files in
+# separators are ", " (comma, space)
+# if script started with argument 'addcustomdialogs' new dialogs will be added but existing ones (with different numbers) will be left in place
+# if script is started with 'newcustomdialogs' all dialogs starting with 'Custom.smashing' will be removed first.
+# default is newcustomdialogs (ie all old dialogs removed)
+# if script started with 'updateallskins' all skins will be updated
+# if script started with eg 'updateskin.confluence' skin.confluence will be updated
+# default is no skins are updated when the script runs
+#
+#
+#
+#
+skin.confluence, conf720, 720p
+skin.xonfluence, conf1080, xml
+skin.estuary, estuary, xml

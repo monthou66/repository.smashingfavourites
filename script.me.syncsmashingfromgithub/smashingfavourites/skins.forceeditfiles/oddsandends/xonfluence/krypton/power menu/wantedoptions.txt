@@ -1,0 +1,9 @@
+Libreelec settings
+Coreelec settings
+Skin Settings
+Skin change
+Skin reload
+Keymaps reload
+reset PVR
+Add custom dialogs
+Open custom dialogs

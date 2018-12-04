@@ -1,0 +1,12 @@
+<name>Custom.smashing.alloptions2151</name>
+<id>2151</id>
+<icon>alloptions</icon>
+<list>			<!--  Dialog.Close(xxxx) if not specified; visible = true if not specified-->
+<item>
+<label>Previous Menu</label>
+<onclick>RunScript(special://userdata/smashing/smashingfavourites/scripts/automatedscripts/opendialog.py, back)</onclick>
+</item>
+<item>
+<label>Choose Less</label>
+<onclick>RunScript(special://userdata/smashing/smashingfavourites/scripts/automatedscripts/opendialog.py, 2154)</onclick>
+</item>

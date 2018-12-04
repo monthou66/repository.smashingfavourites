@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keymap> 
+  <MyVideoLibrary>
+    <keyboard>
+       <enter>RunScript(special://userdata/favourites/scripts/messingwithvideos.py)</enter> 
+       <select>RunScript(special://userdata/favourites/scripts/messingwithvideos.py)</select>	
+       <one>Select</one>	   
+    </keyboard>
+    <remote>
+       <enter>RunScript(special://userdata/favourites/scripts/messingwithvideos.py)</enter> 
+       <select>RunScript(special://userdata/favourites/scripts/messingwithvideos.py)</select>	
+       <one>RunScript(special://userdata/favourites/scripts/messingwithvideos.py)</one> 	   
+       <reverse>Select</reverse> 
+    </remote>
+  </MyVideoLibrary>  
+</keymap>

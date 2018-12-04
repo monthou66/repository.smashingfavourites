@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keymap>
+  <global>
+    <keyboard>
+       <volume_mute>RunScript(special://userdata/smashing/smashingfavourites/scripts/smashingfavourites.py, choose)</volume_mute>	
+    </keyboard>
+    <remote>
+       <mute>RunScript(special://userdata/smashing/smashingfavourites/scripts/smashingfavourites.py, choose)</mute> 
+    </remote>	
+  </global>
+  <home>
+    <keyboard>
+       <volume_mute>RunScript(special://userdata/smashing/smashingfavourites/scripts/smashingfavourites.py, tv)</volume_mute>	
+    </keyboard>
+    <remote>
+       <mute>RunScript(special://userdata/smashing/smashingfavourites/scripts/smashingfavourites.py, tv)</mute> 
+    </remote>	
+  </home>  
+  <FileBrowser>
+    <keyboard>
+       <right mod="longpress">RunScript(special://userdata/smashing/smashingfavourites/scripts/smashingfavourites.py, letters)</right>      
+    </keyboard>
+    <remote>
+       <right mod="longpress">RunScript(special://userdata/smashing/smashingfavourites/scripts/smashingfavourites.py, letters)</right> 
+    </remote>	
+  </FileBrowser>
+  <Music>
+    <keyboard>
+       <right mod="longpress">RunScript(special://userdata/smashing/smashingfavourites/scripts/smashingfavourites.py, letters)</right>
+       <volume_mute>RunScript(special://userdata/smashing/smashingfavourites/scripts/smashingfavourites.py, letters)</volume_mute>   
+    </keyboard>
+    <remote>
+       <right mod="longpress">RunScript(special://userdata/smashing/smashingfavourites/scripts/smashingfavourites.py, letters)</right>
+       <mute>RunScript(special://userdata/smashing/smashingfavourites/scripts/smashingfavourites.py, letters)</mute>	   
+    </remote>
+  </Music>  
+  <Videos>
+    <keyboard>
+       <right mod="longpress">RunScript(special://userdata/favourites/scripts/tempfavourites.py, smashingletters)</right>
+       <volume_mute>RunScript(special://userdata/favourites/scripts/tempfavourites.py, smashingletters)</volume_mute>	   
+    </keyboard>
+    <remote>
+       <right mod="longpress">RunScript(special://userdata/favourites/scripts/tempfavourites.py, smashingletters)</right>
+       <mute>RunScript(special://userdata/favourites/scripts/tempfavourites.py, smashingletters)</mute>	  
+    </remote>
+  </Videos>
+  <Favourites>
+    <keyboard>
+       <f>Right</f>
+	   <r>Left</r>
+       <period>Right</period>
+	   <comma>Left</comma>
+       <right>noop</right>
+       <volume_mute>noop</volume_mute>	   
+       <zero>noop</zero>	  
+       <one>noop</one>
+       <two>noop</two>
+       <three>noop</three>
+       <four>noop</four>
+       <five>noop</five>
+       <six>noop</six>
+       <seven>noop</seven>
+       <eight>noop</eight>
+       <nine>noop</nine>	   
+    </keyboard>
+    <remote>
+       <forward>Right</forward>
+       <reverse>Left</reverse>	   
+       <skipplus>Right</skipplus>
+	   <skipminus>Left</skipminus>
+       <right>noop</right>
+       <mute>noop</mute>	   
+       <zero>noop</zero>	  
+       <one>noop</one>
+       <two>noop</two>
+       <three>noop</three>
+       <four>noop</four>
+       <five>noop</five>
+       <six>noop</six>
+       <seven>noop</seven>
+       <eight>noop</eight>
+       <nine>noop</nine>	   	   
+    </remote>
+  </Favourites>  
+</keymap>

@@ -1,0 +1,14 @@
+
+
+
+current
+subprocess.Popen('restart.bat', close_fds=True,  shell=True)
+
+
+import xbmc
+xbmc.executebuiltin('XBMC.System.Exec(""C:\\Users\\firewater\\Kodi\\portable_data\\userdata\\nfo.bat"")')
+
+
+
+import subprocess
+subprocess.call(['C:\\Users\\firewater\\Kodi\\portable_data\\userdata\\nfo.bat'])

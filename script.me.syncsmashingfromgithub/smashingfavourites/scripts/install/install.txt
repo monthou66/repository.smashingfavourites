@@ -1,0 +1,57 @@
+Copy smashingfavourites to userdata
+
+Copy stuff to .config
+reboot
+
+Install userdata
+
+1
+- addon data
+All except libreelec settings
+List folders in smashingfavourites/pathsubs/userdata/addon_data
+If that folder exists in userdata/addon_data delete it (prompt?)
+Copy from SF to addon_data
+
+2
+- advanced settings
+Give choices
+restart kodi
+use autoexec.py to continue with install?
+
+Install addons
+Need a list of what to install for each category below, including dependencies for non-repo stuff.
+
+1
+- Disabled versions of repo addons
+Add these directly to folder and use enableaddons.py (or equivalent) to start them.
+
+2
+- My own addons
+As above
+
+3
+- Standalone 3rd party addons
+As above - check they don't need dependencies, in which case install those first?  Or not matter?
+
+4
+- 3rd party repos
+As above
+
+5
+- Addons from kodi repo
+Use xbmc.executebuiltin('InstallAddon(skin.amber)'), xbmc.sleep(1000), xbmc.executebuiltin('SendClick(11)') for each.
+Need a loop to check if / when installed so can carry on?  Check this.
+
+6
+- Addons from libreelec repo
+As above
+
+7
+- Addons from 3rd party repos
+As above
+
+Switch skin - maybe do this earlier?  Could switch to confluence immediately
+restart
+
+
+

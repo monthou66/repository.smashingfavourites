@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keymap>
+  <global>
+    <keyboard>
+      <zero>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/utilityscripts/checkwindowandfocus.py)</zero>
+    </keyboard>
+    <remote>
+      <zero>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/utilityscripts/checkwindowandfocus.py)</zero> 
+    </remote>	
+  </global>
+  <Music>
+    <keyboard>
+      <zero>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/utilityscripts/checkwindowandfocus.py)</zero>	
+    </keyboard>
+    <remote>
+      <zero>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/utilityscripts/checkwindowandfocus.py)</zero>
+    </remote>	
+  </Music>
+  <Videos>
+    <keyboard>
+      <zero>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/utilityscripts/checkwindowandfocus.py)</zero>
+    </keyboard>
+    <remote>
+      <zero>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/utilityscripts/checkwindowandfocus.py)</zero>
+    </remote>	
+  </Videos>
+</keymap>

@@ -1,0 +1,22 @@
+os.path.join(xbmc.translatePath('special://masterprofile/'), "smashingfavourites/backups/skins/xonfluence", OPTION, "settings.xml")
+
+os.path.join(xbmc.translatePath('special://masterprofile/'), "smashingfavourites/scripts/smashingkeymaps/ %s .xml" % FILE)
+
+os.path.join(xbmc.translatePath('special://masterprofile/'), "smashing", "smashingfavourites", NAME, "favourites.xml")
+
+os.path.join(xbmc.translatePath('special://masterprofile/'), "smashingfavourites/options/", CURRENT, "favourites.xml")            
+
+os.path.join(xbmc.translatePath('special://masterprofile/'), "smashingfavourites/options/", CURRENT, "favourites.xml")            
+
+os.path.join(xbmc.translatePath('special://userdata/'), "favourites", NAME, "favourites.xml")
+
+os.path.join(xbmc.translatePath('special://userdata/'), "favourites", HISTORY, "favourites.xml")
+
+special://home/userdata/smashing/smashingfavourites/backups/skins/xonfluence/ test/settings.xml&quot;)
+
+
+
+
+
+ 
+ 

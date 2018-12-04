@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keymap>
+	<home>
+     <remote>
+       <nine>Notification(new, keymap)</nine>   
+     </remote>
+    <keyboard>
+       <nine>Notification(new, keymap)</nine>   
+    </keyboard>	 
+	</home>
+</keymap>

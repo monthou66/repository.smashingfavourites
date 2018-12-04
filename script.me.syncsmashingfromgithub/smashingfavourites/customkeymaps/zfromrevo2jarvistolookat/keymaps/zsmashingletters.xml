@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keymap>
+  <MyFiles>
+    <keyboard>
+       <right mod="longpress">RunScript(special://userdata/favourites/scripts/tempfavourites.py, smashingletters)</right>      
+    </keyboard>
+    <remote>
+       <right mod="longpress">RunScript(special://userdata/favourites/scripts/tempfavourites.py, smashingletters)</right> 
+    </remote>	
+  </MyFiles>
+  <MyMusicFiles>
+    <keyboard>
+       <right mod="longpress">RunScript(special://userdata/favourites/scripts/tempfavourites.py, smashingletters)</right>      
+    </keyboard>
+    <remote>
+       <right mod="longpress">RunScript(special://userdata/favourites/scripts/tempfavourites.py, smashingletters)</right> 
+    </remote>
+  </MyMusicFiles>
+  <MyMusicLibrary>
+    <keyboard>
+       <right mod="longpress">RunScript(special://userdata/favourites/scripts/tempfavourites.py, smashingletters)</right>      
+    </keyboard>
+    <remote>
+       <right mod="longpress">RunScript(special://userdata/favourites/scripts/tempfavourites.py, smashingletters)</right> 
+    </remote>
+  </MyMusicLibrary>  
+  <MyVideoLibrary>
+    <keyboard>
+       <right mod="longpress">RunScript(special://userdata/favourites/scripts/tempfavourites.py, smashingletters)</right>      
+    </keyboard>
+    <remote>
+       <right mod="longpress">RunScript(special://userdata/favourites/scripts/tempfavourites.py, smashingletters)</right> 
+    </remote>
+  </MyVideoLibrary>  
+  <MyVideoFiles>
+    <keyboard>
+       <right mod="longpress">RunScript(special://userdata/favourites/scripts/tempfavourites.py, smashingletters)</right>      
+    </keyboard>
+    <remote>
+       <right mod="longpress">RunScript(special://userdata/favourites/scripts/tempfavourites.py, smashingletters)</right> 
+    </remote>
+  </MyVideoFiles>  
+</keymap>

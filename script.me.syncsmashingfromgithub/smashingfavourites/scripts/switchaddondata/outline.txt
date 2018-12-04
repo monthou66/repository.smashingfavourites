@@ -1,0 +1,20 @@
+use arguments to configure
+
+check if addon is running
+if running:	
+						check page - go back to home screen?
+						disable addon
+return data to smashing folder (unless told not to)
+copy new data to addon_data							* include 'last version' option like skin?
+(re)start addon
+						
+						
+look at smashingfavourites.py and smashingskinbackuprestore.py, opendialog.py			
+						
+						
+						
+						
+						
+						
+						
+						

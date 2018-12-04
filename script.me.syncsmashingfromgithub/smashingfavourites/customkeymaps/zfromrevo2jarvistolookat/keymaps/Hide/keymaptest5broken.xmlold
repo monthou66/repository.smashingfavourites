@@ -1,0 +1,55 @@
+<keymap>
+
+<!-- ************* GLOBAL ***************************** -->
+<!-- Define R as reload skin, S as screenshot, anywhere -->
+<!-- and define some special remote keys  
+<!-- Red toggles fullscreen view -->
+<!-- Green Toggles the watched status of an item -->
+<!-- And yellow will toggle the library views between 'show everything' and 'show watched only' -->
+<global>
+    <keyboard>
+       <r>XBMC.ReloadSkin()</r>
+       <s>Screenshot</s>
+    </keyboard>
+    <remote>
+<Green>ToggleWatched</Green>  
+<Yellow>SendClick(25,14)</Yellow>
+    </remote>
+</global>
+<!-- ************************************************ -->
+<!-- On the home screen, 1 cleans the library, 2 triggers an update -->  
+<home>
+     <remote>
+       <one>XBMC.CleanLibrary(video)</one>
+       <two>XBMC.UpdateLibrary(video)</two>
+     </remote>
+</home>
+<!-- Set up Audio Delay Easy Keys -->
+<FullscreenVideo>
+    <remote>
+<Yellow>AudioDelayMinus</Yellow>
+<Blue>AudioDelayPlus</Blue>
+<Red>ActivateWindow(SubtitleSearch)</Red>
+<Green>SubtitleDelay</Green>
+<Menu>ActivateWindow(WINDOW_HOME)</Menu>
+    </remote>
+</FullscreenVideo>
+<!-- Set up zooming in picture slideshows -->
+<Slideshow>
+    <remote>
+<Yellow>ZoomOut</Yellow>
+<Blue>ZoomIn</Blue>
+    </remote>
+</Slideshow>
+<!-- make the info window close when info is pressed again -->
+  <movieinformation>
+    <remote>
+      <info>Close</info>
+    </remote>
+  </movieinformation>
+  <musicinformation>
+    <remote>
+      <info>Close</info>
+    </remote>
+  </musicinformation>
+</keymap>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keymap>
+  <global>
+    <keyboard>
+      <zero>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/smashingfavourites.py, testing)</zero>	  
+      <one>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/testscripts/test1.py)</one>
+      <two>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/testscripts/test2.py)</two>
+      <three>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/testscripts/test3.py)</three>
+      <four>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/testscripts/test4.py)</four>
+      <five>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/testscripts/test5.py)</five>
+      <six>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/testscripts/test6.py)</six>
+      <seven>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/testscripts/test7.py)</seven>
+      <eight>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/testscripts/test8.py)</eight>
+      <nine>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/testscripts/test9.py)</nine>
+    </keyboard>
+    <remote>
+      <zero>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/smashingfavourites.py, testing)</zero>	  
+      <one>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/testscripts/test1.py)</one>
+      <two>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/testscripts/test2.py)</two>
+      <three>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/testscripts/test3.py)</three>
+      <four>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/testscripts/test4.py)</four>
+      <five>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/testscripts/test5.py)</five>
+      <six>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/testscripts/test6.py)</six>
+      <seven>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/testscripts/test7.py)</seven>
+      <eight>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/testscripts/test8.py)</eight>
+      <nine>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/testscripts/test9.py)</nine> 
+    </remote>	
+  </global>
+  <Music>
+    <keyboard>
+      <zero>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/smashingfavourites.py, testing)</zero>	  
+      <one>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/testscripts/test1.py)</one>
+      <two>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/testscripts/test2.py)</two>
+      <three>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/testscripts/test3.py)</three>
+      <four>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/testscripts/test4.py)</four>
+      <five>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/testscripts/test5.py)</five>
+      <six>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/testscripts/test6.py)</six>
+      <seven>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/testscripts/test7.py)</seven>
+      <eight>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/testscripts/test8.py)</eight>
+      <nine>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/testscripts/test9.py)</nine>	
+    </keyboard>
+    <remote>
+      <zero>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/smashingfavourites.py, testing)</zero>	  
+      <one>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/testscripts/test1.py)</one>
+      <two>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/testscripts/test2.py)</two>
+      <three>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/testscripts/test3.py)</three>
+      <four>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/testscripts/test4.py)</four>
+      <five>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/testscripts/test5.py)</five>
+      <six>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/testscripts/test6.py)</six>
+      <seven>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/testscripts/test7.py)</seven>
+      <eight>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/testscripts/test8.py)</eight>
+      <nine>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/testscripts/test9.py)</nine>
+    </remote>	
+  </Music>
+  <Videos>
+    <keyboard>
+      <zero>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/smashingfavourites.py, testing)</zero>	  
+      <one>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/testscripts/test1.py)</one>
+      <two>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/testscripts/test2.py)</two>
+      <three>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/testscripts/test3.py)</three>
+      <four>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/testscripts/test4.py)</four>
+      <five>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/testscripts/test5.py)</five>
+      <six>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/testscripts/test6.py)</six>
+      <seven>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/testscripts/test7.py)</seven>
+      <eight>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/testscripts/test8.py)</eight>
+      <nine>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/testscripts/test9.py)</nine>
+    </keyboard>
+    <remote>
+      <zero>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/smashingfavourites.py, testing)</zero>	  
+      <one>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/testscripts/test1.py)</one>
+      <two>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/testscripts/test2.py)</two>
+      <three>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/testscripts/test3.py)</three>
+      <four>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/testscripts/test4.py)</four>
+      <five>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/testscripts/test5.py)</five>
+      <six>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/testscripts/test6.py)</six>
+      <seven>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/testscripts/test7.py)</seven>
+      <eight>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/testscripts/test8.py)</eight>
+      <nine>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/testscripts/test9.py)</nine>
+    </remote>	
+  </Videos>
+</keymap>

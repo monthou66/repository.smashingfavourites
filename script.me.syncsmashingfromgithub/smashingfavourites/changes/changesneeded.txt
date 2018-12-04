@@ -1,0 +1,33 @@
+
+
+
+
+standardize paths throughout addons:
+eg SMASHINGFAVOURITES = etc
+
+conditional visibility:
+only favourites appropriate to machine show up
+needs file in smashingspecifics to say which to use, and options for windows, android, le on pi's / amlogic / pc
+
+xonfluence default:
+make new default menu
+
+xonfluence TV menu:
+If off have 'Enable TV' on the homescreen...
+Click and enables TV plus uses eg Skin.SetString(string[,value]) to change menu item - dring up TV menu and submenu.
+
+xonfluence save / restore location:
+save setups in smashingfavourites
+
+xonfluence make specific to machine:
+use eg Skin.SetString(string[,value]) to adjust menus or submenus to match os / machine
+
+audioprofiles:
+sync settings between builds?
+Maybe...
+1. Direct to TV no passthrough
+2. Bluetooth
+3. amp with passthrough
+
+- sync defaultkeymaps to somewhere?
+

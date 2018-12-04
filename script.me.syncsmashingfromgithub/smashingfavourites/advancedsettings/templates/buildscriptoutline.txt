@@ -1,0 +1,31 @@
+copy template to working folder
+
+get arguments - either via shortcut or xbmcgui / modal
+
+check if there's an existing advsettings - if there is parse it, ask if want to keep / modify / start fresh / refresh ( build again with same options)
+
+arguments:
+
+pc running on - name / os
+
+where is the media - local / remote / ip
+
+which drives is the content on?
+
+what sort of library - local / mysql - if mysql which server
+
+debug on / off
+
+Replace stuff in template.
+
+Anything starting '<to>Source' is to be replaced
+check in pathsubs.xml for the drive paths.
+Are the drives local?
+If so which os?
+If not what machine / ip are they on?
+Build the required path
+write in the subs
+
+
+
+

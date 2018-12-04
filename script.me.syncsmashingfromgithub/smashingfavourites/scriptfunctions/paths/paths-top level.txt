@@ -1,0 +1,35 @@
+
+
+
+
+
+DEFAULTADDONSFOLDER = os.path.join(xbmc.translatePath('special://xbmc/addons/'))        # this is the read-only default folder
+ADDONSFOLDER = os.path.join(xbmc.translatePath('special://home/addons/'))
+USERDATA = xbmc.translatePath('special://masterprofile')
+ADDONDATA = os.path.join(USERDATA, "addon_data")
+SMASHING = os.path.join(USERDATA, "smashing")
+SMASHINGFAVOURITES = os.path.join(USERDATA, "smashing", "smashingfavourites")
+SMASHINGSPECIFICS = os.path.join(USERDATA, "smashing", "smashingspecifics")
+SMASHINGTEMP = os.path.join(USERDATA, "smashing", "smashingtemp")
+ADVANCEDSETTINGS = os.path.join(USERDATA, "advancedsettings.xml")
+DATABASEFOLDER = os.path.join(USERDATA, "Database")
+VIDEODB = os.path.join(DATABASEFOLDER, "MyVideos107.db")
+
+smashingfavourites:
+ADVANCEDSETTINGSFOLDER = os.path.join(SMASHINGFAVOURITES, "advancedsettings")
+BACKUPS = os.path.join(SMASHINGFAVOURITES, "backups")
+ICONS = os.path.join(SMASHINGFAVOURITES, "icons")
+SMASHINGLOGFOLDER = os.path.join(SMASHINGFAVOURITES, "logfiles")
+MISC = os.path.join(SMASHINGFAVOURITES, "miscfiles")
+OPTIONS = os.path.join(SMASHINGFAVOURITES, "options")
+PATHSUBS = os.path.join(SMASHINGFAVOURITES, "pathsubs")
+SCRIPTS = os.path.join(SMASHINGFAVOURITES, "scripts")
+SMASHINGSPECIFICS = os.path.join(USERDATA, "smashing", "smashingspecifics")
+TEMPFILES = os.path.join(SMASHINGFAVOURITES, "tempfiles")
+
+smashingtemp:
+BUILDFOLDER = os.path.join(SMASHINGTEMP, "buildcustomskindialogs")
+LOGFOLDER = os.path.join(SMASHINGTEMP, "logfiles")
+markersfolder = os.path.join(SMASHINGTEMP, "markers")
+TEMPMISC = os.path.join(SMASHINGTEMP, "miscfiles")
+

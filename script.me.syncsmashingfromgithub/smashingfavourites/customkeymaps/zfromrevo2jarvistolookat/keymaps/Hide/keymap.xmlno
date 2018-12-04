@@ -1,0 +1,60 @@
+<keymap>
+<global>
+    <universalremote> 
+ <obc1>left</obc1>
+ <obc2>right</obc2>
+ <obc3>left</obc3>
+ <obc5>left</obc5>
+ <obc7>left</obc7>
+ <obc8>right</obc8>
+ <obc9>left</obc9>
+ <obc10>right</obc10>
+ <obc11>left</obc11>
+ <obc12>right</obc12>
+ <obc13>left</obc13>
+ <obc14>right</obc14>
+ <obc15>left</obc15>
+ <obc16>right</obc16>
+ <obc17>left</obc17>
+ <obc18>right</obc18>
+ <obc19>left</obc19>
+ <obc20>right</obc20>
+ <obc21>left</obc21>
+ <obc22>right</obc22>
+ <obc23>left</obc23>
+ <obc24>right</obc24>
+ <obc25>left</obc25>
+ <obc26>right</obc26>
+ <obc27>left</obc27>
+ <obc28>right</obc28>
+ <obc29>left</obc29>
+ <obc30>right</obc30>
+ <obc31>left</obc31>
+ <obc32>right</obc32>
+ <obc33>left</obc33>
+ <obc34>right</obc34>
+ <obc35>left</obc35>
+ <obc36>right</obc36>
+ <obc37>left</obc37>
+ <obc38>right</obc38>
+ <obc39>left</obc39>
+ <obc40>right</obc40>
+ <obc41>left</obc41>		
+ <obc42>right</obc42>
+ <obc43>left</obc43>
+ <obc44>right</obc44>		
+ <obc45>left</obc45>
+ <obc46>right</obc46>
+ <obc47>left</obc47>		
+ <obc48>RunScript(script.restartkodi)</obc48> 
+    </universalremote>
+</global>
+</keymap>
+
+
+
+
+ <obc4>right</obc4>
+ <obc6>right</obc6>
+ <obc49>left</obc49>
+ <obc50>RunScript(script.restartkodi)</obc50>

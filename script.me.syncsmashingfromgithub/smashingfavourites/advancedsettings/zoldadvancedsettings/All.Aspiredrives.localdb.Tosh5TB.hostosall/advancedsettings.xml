@@ -1,0 +1,130 @@
+<advancedsettings>
+        <locale>
+            <country>UK (12h)</country>
+            <language>English</language>
+            <timezone>Europe/Paris</timezone>
+            <timezonecountry>France</timezonecountry>
+        </locale>
+        <lookandfeel>
+            <enablerssfeeds>false</enablerssfeeds>
+        </lookandfeel>
+		<pathsubstitution>
+			<substitute>
+			<from>smb://Source Cartoons</from>
+			<to>smb://192.168.1.2/Toshiba5TB/Drive 2/Video/TV/Cartoons</to>
+			</substitute>		
+			<substitute>
+			<from>smb://Source Films</from>
+			<to>smb://192.168.1.2/Toshiba5TB/Drive 1/Video/1 - Films</to>
+			</substitute>
+			<substitute>
+			<from>smb://Source HD Films</from>
+			<to>smb://192.168.1.2/Toshiba5TB/Drive 1/Video/2 - HD Films</to>
+			</substitute>			
+			<substitute>
+			<from>smb://Source Home videos</from>
+			<to>smb://192.168.1.2/Toshiba5TB/Drive 1/Video/Home videos</to>
+			</substitute>	
+			<substitute>
+			<from>smb://Source Music Videos</from>
+			<to>smb://192.168.1.2/Toshiba5TB/Drive 1/Video/Music Videos</to>
+			</substitute>
+			<substitute>
+			<from>smb://Source Science and Nature</from>
+			<to>smb://192.168.1.2/Toshiba5TB/Drive 2/Video/TV/Science and Nature</to>
+			</substitute>			
+			<substitute>
+			<from>smb://Source Sport</from>
+			<to>smb://192.168.1.2/Toshiba5TB/Drive 2/Video/Sport</to>
+			</substitute>			
+			<substitute>
+			<from>smb://SourceTV1series</from>
+			<to>smb://192.168.1.2/Toshiba5TB/Drive 2/Video/TV/TV1 - series</to>
+			</substitute>
+			<substitute>
+			<from>smb://SourceTV2completedseries</from>
+			<to>smb://192.168.1.2/Toshiba5TB/Drive 2/Video/TV/TV2 -  completed series</to>
+			</substitute>			
+			<substitute>
+			<from>smb://SourceTV3sharedseries</from>
+			<to>smb://192.168.1.2/Toshiba5TB/Drive 2/Video/TV/TV3 - shared series</to>
+			</substitute>
+			<substitute>
+			<from>smb://SourceTV4completedsharedseries</from>
+			<to>smb://192.168.1.2/Toshiba5TB/Drive 2/Video/TV/TV4 - completed shared series</to>
+			</substitute>			
+			<substitute>
+			<from>smb://SourceTV5seriesLiam</from>
+			<to>smb://192.168.1.2/Toshiba5TB/Drive 2/Video/TV/TV5 - series Liam</to>
+			</substitute>					
+			<substitute>
+			<from>smb://Source DVB Video</from>
+			<to>smb://192.168.1.2/BigEdge2/DVB Video/</to>
+			</substitute>	
+			<substitute>
+			<from>smb://Source Music</from>
+			<to>smb://192.168.1.2/Toshiba5TB/Drive 1/Music</to>
+			</substitute>
+			<substitute>
+			<from>smb://Source oddsandendsone</from>
+			<to>smb://192.168.1.2/Toshiba5TB/Drive 1/Video/oddsandends</to>
+		    </substitute>
+			<substitute>
+			<from>smb://Source oddsandendstwo</from>
+			<to>smb://192.168.1.2/Toshiba5TB/Drive 2/Video/oddsandends</to>
+		    </substitute>
+			<substitute>
+			<from>smb://Source oddsandendsthree</from>
+			<to>smb://192.168.1.2/Toshiba5TB/Drive 1/Video/empty</to>
+		    </substitute>
+			<substitute>
+			<from>smb://Source oddsandendsfour</from>
+			<to>smb://192.168.1.2/Toshiba5TB/Drive 2/Video/empty</to>
+		    </substitute>			
+            <substitute>
+            <from>special://masterprofile/playlists/</from>
+            <to>special://masterprofile/smashing/smashingfavourites/pathsubs/playlists/</to>
+            </substitute>
+            <substitute>
+            <from>special://masterprofile/sources.xml</from>
+            <to>special://masterprofile/smashing/smashingfavourites/pathsubs/sources.xml</to>
+            </substitute>
+            <substitute>
+            <from>special://masterprofile/mediasources.xml</from>
+            <to>special://masterprofile/smashing/smashingfavourites/pathsubs/mediasources.xml</to>
+            </substitute>
+            <substitute>
+            <from>special://masterprofile/favourites.xml</from>
+            <to>special://masterprofile/smashing/smashingfavourites/pathsubs/favourites.xml</to>
+            </substitute>
+            <substitute>
+            <from>special://masterprofile/library</from>
+            <to>special://masterprofile/smashing/smashingfavourites/pathsubs/library</to>
+            </substitute>
+            <substitute>
+            <from>smb://Source ActorThumbs</from>
+            <to>special://masterprofile/smashing/smashingfavourites/pathsubs/ActorThumbs</to>
+            </substitute>			
+		</pathsubstitution>
+        <videolibrary>
+            <actorthumbs>true</actorthumbs>
+            <backgroundupdate>false</backgroundupdate>
+            <flattentvshows>1</flattentvshows>
+            <groupmoviesets>true</groupmoviesets>
+            <seasonthumbs>true</seasonthumbs>
+            <showunwatchedplots>true</showunwatchedplots>
+        </videolibrary>
+		<loglevel>1</loglevel>
+        <debug>
+            <screenshotpath>special://masterprofile/smashing/smashingfavourites/miscfiles/screenshots</screenshotpath>
+        </debug>
+</advancedsettings>
+source machine:
+Aspire
+localormysql:
+local
+drives:
+Tosh5TB
+platform:
+all
+All.Aspiredrives.localdb.Tosh5TB.hostosall

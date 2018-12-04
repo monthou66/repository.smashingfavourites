@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keymap>
+  <global>
+    <keyboard>
+      <z>RunScript(special://masterprofile/smashing/smashingfavourites/scripts/smashingkeymaps.py, temp, remove)</z>
+    </keyboard>
+    <remote> 
+    </remote>	
+  </global>
+</keymap>

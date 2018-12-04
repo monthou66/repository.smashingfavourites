@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?> <!-- Custom.smashing.ztest2172.xml for estuary -->
+<window type="dialog" id="2172">	<!--  -->
+	<defaultcontrol always="true">450</defaultcontrol>
+	<onload>SetFocus(450,0)</onload><!-- jump to the top of the list - alternative is <onclick>SetFocus(0)</onclick> as first action -->
+	<coordinates>
+		<left>0</left>
+		<top>0</top>
+	</coordinates>
+	<controls>
+		<control type="group">
+			<depth>DepthSideBlade</depth>
+			<animation effect="slide" start="400,0" end="0,0" time="300" tween="quadratic" easing="out">WindowOpen</animation>
+			<animation effect="slide" start="0,0" end="400,0" time="300" tween="quadratic" easing="out">WindowClose</animation>
+			<control type="image">
+				<left>600r</left>		<!-- was 400r - making this bigger makes sideblade wider (list doesn't move so big gap on left of list)-->
+				<top>0</top>
+				<width>600</width>		<!-- was 420 -->
+				<height>1280</height>	<!--Background colour - shorten and bottom becomes transparent  -->
+				<texture border="15,0,0,0" flipx="true">smashingHomeBladeSub.png</texture>
+			</control>
+			<control type="image">
+				<left>400r</left>	<!-- was 370r -->
+				<top>20</top>		<!-- was 30 -->
+				<width>200</width>
+				<height>200</height>
+				<aspectratio align="center">keep</aspectratio>
+				<fadetime>IconCrossfadeTime</fadetime>
+				<texture>special://masterprofile/smashing/smashingfavourites/icons/testing.png</texture>		<!-- put icon here -->
+				<bordertexture border="8">smashingThumbShadow.png</bordertexture>
+				<bordersize>8</bordersize>
+			</control>
+			<control type="list" id="450">
+				<left>585r</left>	<!-- was 390r -->
+				<top>230</top>		<!-- Default 250 - reduce and list moves up-->
+				<width>600</width>	<!-- was 450 -->
+				<height>940</height>	<!-- Default is 380 - change to 80 and only see 2 entries, 160 see 4-->
+				<onup>450</onup>
+				<onleft>Dialog.Close(2172)</onleft>
+				<onright>450</onright>
+				<ondown>450</ondown>
+				<pagecontrol>-</pagecontrol>
+				<scrolltime>200</scrolltime>
+				<itemlayout height="80">         <!-- was 40 -->	         <!-- changing this spaced them out! -->
+					<control type="image">
+						<left>0</left>
+						<top>0</top>
+						<width>580</width>			<!-- was 370 -->
+						<height>80</height>         <!-- was 40 -->
+						<texture border="5">smashingbutton-nofocus.png</texture>
+					</control>
+					<control type="label">
+						<left>10</left>
+						<top>0</top>
+						<width>580</width>			<!-- was 350 -->
+						<height>80</height>         <!-- was 40 -->
+						<font>font30_title</font>	<!-- was 12 -->	   <!-- makes font big when not focused -->
+						<align>left</align>
+						<aligny>center</aligny>
+						<selectedcolor>selected</selectedcolor>
+						<info>ListItem.Label</info>
+					</control>
+				</itemlayout>
+				<focusedlayout height="80">         <!-- was 40 -->
+					<control type="image">
+						<left>0</left>
+						<top>0</top>
+						<width>580</width>		<!-- was 370 -->
+						<height>80</height>         <!-- was 40 -->
+						<visible>!Control.HasFocus(450)</visible>
+						<texture border="3">smashingbutton-nofocus.png</texture>
+					</control>
+					<control type="image">
+						<left>0</left>
+						<top>0</top>
+						<width>580</width>		<!--  -->
+						<height>80</height>         <!-- was 40 -->
+						<visible>Control.HasFocus(450)</visible>
+						<texture border="3" colordiffuse="$VAR[MainColorOne]">smashingbutton-focus.png</texture>
+					</control>
+					<control type="label">
+						<left>10</left>
+						<top>0</top>
+						<width>580</width>			<!-- was 350 - if this is to short focused text is cut off with ...-->
+						<height>80</height>         <!-- was 40 -->
+						<font>font30_title</font>         <!-- was 12 -->      <!-- makes font big when focused -->
+						<align>left</align>
+						<aligny>center</aligny>
+						<selectedcolor>selected</selectedcolor>
+						<info>ListItem.Label</info>
+					</control>
+				</focusedlayout>
+				<content>
+					<item id="1">
+						<label>01 testing for size and jumps</label>
+                        <onclick>Dialog.Close(2172)</onclick>
+                        <onclick>ActivateWindow(2151)</onclick>
+                        <visible>true</visible>
+					</item>
+					<item id="2">
+						<label>02ABCDEFGHIJKLMNOPQRSTUVWXYZ</label>
+                        <onclick>Dialog.Close(2172)</onclick>
+                        <onclick>ActivateWindow(2151)</onclick>
+                        <visible>true</visible>
+					</item>
+					<item id="3">
+						<label>03ABCDEFGHIJKLMNOPQRSTUVWXYZ</label>
+                        <onclick>Dialog.Close(2172)</onclick>
+                        <onclick>ActivateWindow(2151)</onclick>
+                        <visible>true</visible>
+					</item>
+					<item id="4">
+						<label>04ABCDEFGHIJKLMNOPQRSTUVWXYZ</label>
+                        <onclick>Dialog.Close(2172)</onclick>
+                        <onclick>ActivateWindow(2151)</onclick>
+                        <visible>true</visible>
+					</item>
+					<item id="5">
+						<label>05ABCDEFGHIJKLMNOPQRSTUVWXYZ</label>
+                        <onclick>Dialog.Close(2172)</onclick>
+                        <onclick>ActivateWindow(2151)</onclick>
+                        <visible>true</visible>
+					</item>
+					<item id="6">
+						<label>06ABCDEFGHIJKLMNOPQRSTUVWXYZ</label>
+                        <onclick>Dialog.Close(2172)</onclick>
+                        <onclick>ActivateWindow(2151)</onclick>
+                        <visible>true</visible>
+					</item>
+					<item id="7">
+						<label>07ABCDEFGHIJKLMNOPQRSTUVWXYZ</label>
+                        <onclick>Dialog.Close(2172)</onclick>
+                        <onclick>ActivateWindow(2151)</onclick>
+                        <visible>true</visible>
+					</item>
+					<item id="8">
+						<label>08ABCDEFGHIJKLMNOPQRSTUVWXYZ</label>
+                        <onclick>Dialog.Close(2172)</onclick>
+                        <onclick>ActivateWindow(2151)</onclick>
+                        <visible>true</visible>
+					</item>
+					<item id="9">
+						<label>09ABCDEFGHIJKLMNOPQRSTUVWXYZ</label>
+                        <onclick>Dialog.Close(2172)</onclick>
+                        <onclick>ActivateWindow(2151)</onclick>
+                        <visible>true</visible>
+					</item>
+					<item id="10">
+						<label>10ABCDEFGHIJKLMNOPQRSTUVWXYZ</label>
+                        <onclick>Dialog.Close(2172)</onclick>
+                        <onclick>ActivateWindow(2151)</onclick>
+                        <visible>true</visible>
+					</item>
+					<item id="11">
+						<label>11ABCDEFGHIJKLMNOPQRSTUVWXYZ</label>
+                        <onclick>Dialog.Close(2172)</onclick>
+                        <onclick>ActivateWindow(2151)</onclick>
+                        <visible>true</visible>
+					</item>
+					<item id="12">
+						<label>12ABCDEFGHIJKLMNOPQRSTUVWXYZ</label>
+                        <onclick>Dialog.Close(2172)</onclick>
+                        <onclick>ActivateWindow(2151)</onclick>
+                        <visible>true</visible>
+					</item>
+					<item id="13">
+						<label>13ABCDEFGHIJKLMNOPQRSTUVWXYZ</label>
+                        <onclick>Dialog.Close(2172)</onclick>
+                        <onclick>ActivateWindow(2151)</onclick>
+                        <visible>true</visible>
+					</item>
+					<item id="14">
+						<label>14ABCDEFGHIJKLMNOPQRSTUVWXYZ</label>
+                        <onclick>Dialog.Close(2172)</onclick>
+                        <onclick>ActivateWindow(2151)</onclick>
+                        <visible>true</visible>
+					</item>
+					<item id="15">
+						<label>15ABCDEFGHIJKLMNOPQRSTUVWXYZ</label>
+                        <onclick>Dialog.Close(2172)</onclick>
+                        <onclick>ActivateWindow(2151)</onclick>
+                        <visible>true</visible>
+					</item>
+					<item id="16">
+						<label>16ABCDEFGHIJKLMNOPQRSTUVWXYZ</label>
+                        <onclick>Dialog.Close(2172)</onclick>
+                        <onclick>ActivateWindow(2151)</onclick>
+                        <visible>true</visible>
+					</item>
+					<item id="17">
+						<label>17ABCDEFGHIJKLMNOPQRSTUVWXYZ</label>
+                        <onclick>Dialog.Close(2172)</onclick>
+                        <onclick>ActivateWindow(2151)</onclick>
+                        <visible>true</visible>
+					</item>
+					<item id="18">
+						<label>18ABCDEFGHIJKLMNOPQRSTUVWXYZ</label>
+                        <onclick>Dialog.Close(2172)</onclick>
+                        <onclick>ActivateWindow(2151)</onclick>
+                        <visible>true</visible>
+					</item>
+					<item id="19">
+						<label>19ABCDEFGHIJKLMNOPQRSTUVWXYZ</label>
+                        <onclick>Dialog.Close(2172)</onclick>
+                        <onclick>ActivateWindow(2151)</onclick>
+                        <visible>true</visible>
+					</item>
+					<item id="20">
+						<label>20ABCDEFGHIJKLMNOPQRSTUVWXYZ</label>
+                        <onclick>Dialog.Close(2172)</onclick>
+                        <onclick>ActivateWindow(2151)</onclick>
+                        <visible>true</visible>
+					</item>
+					<item id="21">
+						<label>21ABCDEFGHIJKLMNOPQRSTUVWXYZ</label>
+                        <onclick>Dialog.Close(2172)</onclick>
+                        <onclick>ActivateWindow(2151)</onclick>
+                        <visible>true</visible>
+					</item>
+					<item id="22">
+						<label>22ABCDEFGHIJKLMNOPQRSTUVWXYZ</label>
+                        <onclick>Dialog.Close(2172)</onclick>
+                        <onclick>ActivateWindow(2151)</onclick>
+                        <visible>true</visible>
+					</item>
+					<item id="23">
+						<label>23ABCDEFGHIJKLMNOPQRSTUVWXYZ</label>
+                        <onclick>Dialog.Close(2172)</onclick>
+                        <onclick>ActivateWindow(2151)</onclick>
+                        <visible>true</visible>
+					</item>
+					<item id="24">
+						<label>24ABCDEFGHIJKLMNOPQRSTUVWXYZ</label>
+                        <onclick>Dialog.Close(2172)</onclick>
+                        <onclick>ActivateWindow(2151)</onclick>
+                        <visible>true</visible>
+					</item>
+					<item id="25">
+						<label>25ABCDEFGHIJKLMNOPQRSTUVWXYZ</label>
+                        <onclick>Dialog.Close(2172)</onclick>
+                        <onclick>ActivateWindow(2151)</onclick>
+                        <visible>true</visible>
+					</item>
+					<item id="26">
+						<label>26ABCDEFGHIJKLMNOPQRSTUVWXYZ</label>
+                        <onclick>Dialog.Close(2172)</onclick>
+                        <onclick>ActivateWindow(2151)</onclick>
+                        <visible>true</visible>
+					</item>
+					<item id="27">
+						<label>27ABCDEFGHIJKLMNOPQRSTUVWXYZ</label>
+                        <onclick>Dialog.Close(2172)</onclick>
+                        <onclick>ActivateWindow(2151)</onclick>
+                        <visible>true</visible>
+					</item>
+					<item id="28">
+						<label>28ABCDEFGHIJKLMNOPQRSTUVWXYZ</label>
+                        <onclick>Dialog.Close(2172)</onclick>
+                        <onclick>ActivateWindow(2151)</onclick>
+                        <visible>true</visible>
+					</item>
+					<item id="29">
+						<label>29ABCDEFGHIJKLMNOPQRSTUVWXYZ</label>
+                        <onclick>Dialog.Close(2172)</onclick>
+                        <onclick>ActivateWindow(2151)</onclick>
+                        <visible>true</visible>
+					</item>
+					<item id="30">
+						<label>30ABCDEFGHIJKLMNOPQRSTUVWXYZ</label>
+                        <onclick>Dialog.Close(2172)</onclick>
+                        <onclick>ActivateWindow(2151)</onclick>
+                        <visible>true</visible>
+					</item>
+					<item id="31">
+						<label>31ABCDEFGHIJKLMNOPQRSTUVWXYZ</label>
+                        <onclick>Dialog.Close(2172)</onclick>
+                        <onclick>ActivateWindow(2151)</onclick>
+                        <visible>true</visible>
+					</item>
+					<item id="32">
+						<label>32ABCDEFGHIJKLMNOPQRSTUVWXYZ</label>
+                        <onclick>Dialog.Close(2172)</onclick>
+                        <onclick>ActivateWindow(2151)</onclick>
+                        <visible>true</visible>
+					</item>
+					<item id="33">
+						<label>33ABCDEFGHIJKLMNOPQRSTUVWXYZ</label>
+                        <onclick>Dialog.Close(2172)</onclick>
+                        <onclick>ActivateWindow(2151)</onclick>
+                        <visible>true</visible>
+					</item>
+					<item id="34">
+						<label>34ABCDEFGHIJKLMNOPQRSTUVWXYZ</label>
+                        <onclick>Dialog.Close(2172)</onclick>
+                        <onclick>ActivateWindow(2151)</onclick>
+                        <visible>true</visible>
+					</item>
+					<item id="35">
+						<label>35ABCDEFGHIJKLMNOPQRSTUVWXYZ</label>
+                        <onclick>Dialog.Close(2172)</onclick>
+                        <onclick>ActivateWindow(2151)</onclick>
+                        <visible>true</visible>
+					</item>
+					<item id="36">
+						<label>36ABCDEFGHIJKLMNOPQRSTUVWXYZ</label>
+                        <onclick>Dialog.Close(2172)</onclick>
+                        <onclick>ActivateWindow(2151)</onclick>
+                        <visible>true</visible>
+					</item>
+					<item id="37">
+						<label>37ABCDEFGHIJKLMNOPQRSTUVWXYZ</label>
+                        <onclick>Dialog.Close(2172)</onclick>
+                        <onclick>ActivateWindow(2151)</onclick>
+                        <visible>true</visible>
+					</item>
+					<item id="38">
+						<label>38ABCDEFGHIJKLMNOPQRSTUVWXYZ</label>
+                        <onclick>Dialog.Close(2172)</onclick>
+                        <onclick>ActivateWindow(2151)</onclick>
+                        <visible>true</visible>
+					</item>
+					<item id="39">
+						<label>39ABCDEFGHIJKLMNOPQRSTUVWXYZ</label>
+                        <onclick>Dialog.Close(2172)</onclick>
+                        <onclick>ActivateWindow(2151)</onclick>
+                        <visible>true</visible>
+					</item>
+					<item id="40">
+						<label>40ABCDEFGHIJKLMNOPQRSTUVWXYZ</label>
+                        <onclick>Dialog.Close(2172)</onclick>
+                        <onclick>ActivateWindow(2151)</onclick>
+                        <visible>true</visible>
+					</item>
+					<item id="41">
+						<label>41ABCDEFGHIJKLMNOPQRSTUVWXYZ</label>
+                        <onclick>Dialog.Close(2172)</onclick>
+                        <onclick>ActivateWindow(2151)</onclick>
+                        <visible>true</visible>
+					</item>
+					<item id="42">
+						<label>42ABCDEFGHIJKLMNOPQRSTUVWXYZ</label>
+                        <onclick>Dialog.Close(2172)</onclick>
+                        <onclick>ActivateWindow(2151)</onclick>
+                        <visible>true</visible>
+					</item>
+					<item id="43">
+						<label>43ABCDEFGHIJKLMNOPQRSTUVWXYZ</label>
+                        <onclick>Dialog.Close(2172)</onclick>
+                        <onclick>ActivateWindow(2151)</onclick>
+                        <visible>true</visible>
+					</item>
+					<item id="44">
+						<label>44ABCDEFGHIJKLMNOPQRSTUVWXYZ</label>
+                        <onclick>Dialog.Close(2172)</onclick>
+                        <onclick>ActivateWindow(2151)</onclick>
+                        <visible>true</visible>
+					</item>
+					<item id="45">
+						<label>45ABCDEFGHIJKLMNOPQRSTUVWXYZ</label>
+                        <onclick>Dialog.Close(2172)</onclick>
+                        <onclick>ActivateWindow(2151)</onclick>
+                        <visible>true</visible>
+					</item>
+					<item id="46">
+						<label>46ABCDEFGHIJKLMNOPQRSTUVWXYZ</label>
+                        <onclick>Dialog.Close(2172)</onclick>
+                        <onclick>ActivateWindow(2151)</onclick>
+                        <visible>true</visible>
+					</item>
+					<item id="47">
+						<label>47ABCDEFGHIJKLMNOPQRSTUVWXYZ</label>
+                        <onclick>Dialog.Close(2172)</onclick>
+                        <onclick>ActivateWindow(2151)</onclick>
+                        <visible>true</visible>
+					</item>
+					<item id="48">
+						<label>48ABCDEFGHIJKLMNOPQRSTUVWXYZ</label>
+                        <onclick>Dialog.Close(2172)</onclick>
+                        <onclick>ActivateWindow(2151)</onclick>
+                        <visible>true</visible>
+					</item>
+					<item id="49">
+						<label>49ABCDEFGHIJKLMNOPQRSTUVWXYZ</label>
+                        <onclick>Dialog.Close(2172)</onclick>
+                        <onclick>ActivateWindow(2151)</onclick>
+                        <visible>true</visible>
+					</item>
+					<item id="50">
+						<label>50ABCDEFGHIJKLMNOPQRSTUVWXYZ</label>
+                        <onclick>Dialog.Close(2172)</onclick>
+                        <onclick>ActivateWindow(2151)</onclick>
+                        <visible>true</visible>
+					</item>
+				</content>
+			</control>
+			<control type="label">
+				<description>Page label</description>
+				<right>30</right>
+				<top>1200</top>         <!-- was 670 -->
+				<width>350</width>
+				<height>30</height>
+				<align>right</align>
+				<aligny>center</aligny>
+				<font>font12</font>
+				<textcolor>grey</textcolor>
+	            <label>[COLOR white]$INFO[Container(450).NumItems] items   -   Page $INFO[Container(450).CurrentPage] of $INFO[Container(450).NumPages]  [/COLOR]</label>
+			</control><!--  -->
+		</control>
+	</controls>
+</window>

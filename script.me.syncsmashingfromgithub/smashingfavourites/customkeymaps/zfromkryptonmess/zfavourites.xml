@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keymap> 
+  <Favourites>
+    <keyboard>
+       <right>noop</right>
+       <zero>noop</zero>	  
+       <one>noop</one>
+       <two>noop</two>
+       <three>noop</three>
+       <four>noop</four>
+       <five>noop</five>
+       <six>noop</six>
+       <seven>noop</seven>
+       <eight>noop</eight>
+       <nine>noop</nine>	   
+    </keyboard>
+    <remote>
+       <right>noop</right>
+       <zero>noop</zero>	  
+       <one>noop</one>
+       <two>noop</two>
+       <three>noop</three>
+       <four>noop</four>
+       <five>noop</five>
+       <six>noop</six>
+       <seven>noop</seven>
+       <eight>noop</eight>
+       <nine>noop</nine>	   	   
+    </remote>
+  </Favourites>  
+</keymap>

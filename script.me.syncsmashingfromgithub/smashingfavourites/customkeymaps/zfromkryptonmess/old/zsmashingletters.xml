@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keymap>
+  <FileBrowser>
+    <keyboard>
+       <right mod="longpress">RunScript(special://masterprofile/smashing/smashingfavourites/scripts/smashingfavourites.py, letters)</right>      
+    </keyboard>
+    <remote>
+       <right mod="longpress">RunScript(special://masterprofile/smashing/smashingfavourites/scripts/smashingfavourites.py, letters)</right> 
+    </remote>	
+  </FileBrowser>
+  <Music>
+    <keyboard>
+       <right mod="longpress">RunScript(special://masterprofile/smashing/smashingfavourites/scripts/smashingfavourites.py, letters)</right>      
+    </keyboard>
+    <remote>
+       <right mod="longpress">RunScript(special://masterprofile/smashing/smashingfavourites/scripts/smashingfavourites.py, letters)</right> 
+    </remote>
+  </Music>  
+  <Videos>
+    <keyboard>
+       <right mod="longpress">RunScript(special://masterprofile/smashing/smashingfavourites/scripts/smashingfavourites.py, letters)</right>      
+    </keyboard>
+    <remote>
+       <right mod="longpress">RunScript(special://masterprofile/smashing/smashingfavourites/scripts/smashingfavourites.py, letters)</right> 
+    </remote>
+  </Videos>   
+</keymap>

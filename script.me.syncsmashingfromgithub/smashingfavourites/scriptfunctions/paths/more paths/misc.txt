@@ -1,0 +1,9 @@
+USERDATA = xbmc.translatePath('special://masterprofile')
+MISC = os.path.join(SMASHINGFAVOURITES, "miscfiles")
+
+
+SMASHINGADDONDATA = os.path.join(MISC, "addon_data")
+
+
+
+

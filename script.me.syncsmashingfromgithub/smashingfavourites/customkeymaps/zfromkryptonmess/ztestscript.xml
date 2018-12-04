@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keymap>
+  <Home>
+    <keyboard>
+      <q>UpdateLocalAddons</q>
+      <w>InstallAddon(script.testscript)</w>
+    </keyboard>
+  </Home>  
+</keymap>

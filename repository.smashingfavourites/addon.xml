@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.smashingfavourites" name="my smashing favourites repo" version="0.0.2" provider-name="Me">
+	<extension point="xbmc.addon.repository" name="my smashing favourites repo">
+		<dir>
+		<info compressed="false">https://raw.githubusercontent.com/monthou66/repository.smashingfavourites/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/monthou66/repository.smashingfavourites/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/monthou66/repository.smashingfavourites/master/zips/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">sync smashing favourites</summary>
+		<description lang="en">really smashing</description>
+		<genre>uk</genre>
+	</extension>
+</addon>

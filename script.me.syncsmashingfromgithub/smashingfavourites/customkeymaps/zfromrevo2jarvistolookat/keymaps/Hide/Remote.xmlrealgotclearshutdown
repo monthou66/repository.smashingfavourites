@@ -1,0 +1,154 @@
+<keymap>
+
+<!-- ************* GLOBAL ***************************** -->
+<!-- Define myvideo as switch to tv sound anywhere -->
+<!-- Define mymusic as switch to amp sound anywhere -->
+<!-- Define mypictures as switch between audio inputs (tv/amp) anywhere -->
+<!-- Define power as switch to home screen anywhere -->
+<!-- Define mute as jump to top anywhere -->
+<!-- and define some special remote keys -->
+<!-- Red toggles fullscreen view -->
+<!-- clear makes pc sleep anywhere -->
+<!-- Hash makes pc return to home screen and sleep anywhere -->
+<global>
+    <remote>
+ <Red>FullScreen</Red> 
+ <mymusic>RunScript(script.audio.profiles,2)</mymusic>  
+ <myvideo>RunScript(script.audio.profiles,1)</myvideo>
+ <mypictures>RunScript(script.audio.profiles,0)</mypictures> 
+ <hash>RunScript(script.home.sleep)</hash>
+ <clear>ShutDown()</clear> 
+ <power>ActivateWindow(Home)</power>
+ <mute>FirstPage</mute>
+    </remote>
+</global>
+
+<!-- ************************************************ -->
+
+<!-- On the home screen, 1 cleans the library, 2 triggers an update -->  
+
+<home>
+     <remote>
+       <one>XBMC.CleanLibrary(video)</one>
+       <two>XBMC.UpdateLibrary(video)</two>
+	   <clear>ShutDown()</clear>
+	   <hash>RunScript(script.home.sleep)</hash>
+	   <three>RunScript(script.restartkodi)</three>	
+	   <four>RunScript(script.makeflashrw)</four>
+	   <five>RunScript(script.makeflashro)</five>
+	   <six>RunScript(script.rsynctest)</six>	   
+     </remote>
+</home>
+
+<!-- Set up Audio Delay Easy Keys -->
+
+<FullscreenVideo>
+    <remote>
+ <Yellow>AudioDelayMinus</Yellow>
+ <Blue>AudioDelayPlus</Blue> 
+    </remote>
+</FullscreenVideo>
+
+<!-- Set up zooming in picture slideshows -->
+
+<Slideshow>
+    <remote>
+ <Yellow>ZoomOut</Yellow>
+ <Blue>ZoomIn</Blue> 
+    </remote>
+</Slideshow>
+
+<!-- make the info window close when info is pressed again -->
+
+  <movieinformation>
+    <remote>
+      <info>Close</info>
+    </remote>
+  </movieinformation>
+  <musicinformation>
+    <remote>
+      <info>Close</info>
+    </remote>
+  </musicinformation>
+  
+ <!-- make clear (delete) perform shutdown (sleep) --> 
+ <!-- make hash return to home screen and then perform shutdown (sleep) -->  
+ 
+   <MyTVRecordings>
+    <remote>
+      <clear>ShutDown()</clear>
+    </remote>
+  </MyTVRecordings>
+   <MyTVTimers>
+    <remote>
+      <clear>ShutDown()</clear>
+    </remote> 
+   </MyTVTimers>	
+  <MyRadioRecordings>
+    <remote>
+      <clear>ShutDown()</clear>
+    </remote> 
+  </MyRadioRecordings>	
+  <MyRadioTimers>
+    <remote>
+      <clear>ShutDown()</clear>
+    </remote> 
+  </MyRadioTimers>	
+  <MyFiles>
+    <remote>
+      <clear>ShutDown()</clear>
+	  <hash>RunScript(script.home.sleep)</hash>
+    </remote>
+  </MyFiles>  
+   <MyMusicPlaylist>
+    <remote>
+      <clear>ShutDown()</clear>	  
+    </remote>
+  </MyMusicPlaylist>  
+  <MyPictures>
+    <remote>
+      <clear>ShutDown()</clear>
+    </remote>
+  </MyPictures> 
+ <!-- Set numbers to perform tasks in Full Screen video -->  
+ <!-- Set 1 to open subtitles -->  
+ <!-- Set 2 to open next subtitles -->  
+ <!-- Set 3 to increse audio delay -->   
+ <!-- Set 4 to decrease audio delay -->   
+ <!-- Set 5 to toggle aspect / zoom -->   
+ <!-- Set 5 to toggle aspect / zoom -->   
+  <FullscreenVideo>
+    <remote>
+	  <hash>RunScript(script.home.sleep)</hash>
+	  <one>ShowSubtitles</one>
+      <two>NextSubtitle</two>
+      <three>AudioDelayPlus</three>
+      <four>AudioDelayMinus</four>
+      <five>AspectRatio</five>
+	  <six>Notification(Warning, Talking detected.)</six>
+	  <seven>Notification(Liam, Shut your cakehole!)</seven>
+	  <eight>Notification(Thankyou, for your co-operation.)</eight>	  
+    </remote>
+  </FullscreenVideo>  
+  <MyVideoLibrary>
+    <remote>
+      <clear>ShutDown()</clear>
+    </remote>
+  </MyVideoLibrary>
+  <MyVideoPlaylist>
+    <remote>
+      <clear>ShutDown()</clear>
+    </remote>
+  </MyVideoPlaylist> 
+  <VirtualKeyboard>
+    <remote>
+	  <hash>RunScript(script.home.sleep)</hash>
+    </remote>
+  </VirtualKeyboard>  
+   <AddonSettings>
+    <remote>
+      <clear>ShutDown()</clear>
+    </remote>
+  </AddonSettings>
+ 
+</keymap>

@@ -1,0 +1,8 @@
+<favourites>
+    <favourite name="Select a new skin" >RunScript(script.simpleswitchskin, choose)</favourite>
+    <favourite name="Switch to Xonfluence" >RunScript(script.simpleswitchskin, skin.xonfluence)</favourite>
+    <favourite name="Switch to Confluence" >RunScript(script.simpleswitchskin, skin.confluence)</favourite>
+    <favourite name="Switch to Estuary" >RunScript(script.simpleswitchskin, skin.estuary)</favourite>
+    <favourite name="Reload skin" >XBMC.ReloadSkin()</favourite>
+    <favourite name="Skin debugging" >XBMC.Skin.ToggleDebug()</favourite>
+</favourites>

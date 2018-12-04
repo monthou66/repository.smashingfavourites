@@ -1,0 +1,28 @@
+<name>SourceCartoons</name>					<Tosh5TB>Toshiba5TB:Drive 2:Video:TV:Cartoons</Tosh5TB>						<portable></portable>	<microserverinternal></microserverinternal>
+<name>SourceFilms</name>					<Tosh5TB>Toshiba5TB:Drive 1:Video:Films</Tosh5TB>							<portable></portable>	<microserverinternal></microserverinternal>
+<name>SourceHomevideos</name>				<Tosh5TB>Toshiba5TB:Drive 1:Video:Home videos</Tosh5TB>						<portable></portable>	<microserverinternal></microserverinternal>
+<name>SourceMusicVideos</name>				<Tosh5TB>Toshiba5TB:Drive 1:Video:Music videos</Tosh5TB>					<portable></portable>	<microserverinternal></microserverinternal>
+<name>SourceScienceandNature</name>			<Tosh5TB>Toshiba5TB:Drive 2:Video:Science and Nature</Tosh5TB>				<portable></portable>	<microserverinternal></microserverinternal>
+<name>SourceSport</name>					<Tosh5TB>Toshiba5TB:Drive 2:Video:Sport</Tosh5TB>							<portable></portable>	<microserverinternal></microserverinternal>
+<name>SourceTV1series</name>				<Tosh5TB>Toshiba5TB:Drive 2:Video:TV:TV1 - series</Tosh5TB>					<portable></portable>	<microserverinternal></microserverinternal>
+<name>SourceTV2completedseries</name>		<Tosh5TB>Toshiba5TB:Drive 2:Video:TV:TV2 -  completed series</Tosh5TB>		<portable></portable>	<microserverinternal></microserverinternal>
+<name>SourceTV3sharedseries</name>			<Tosh5TB>Toshiba5TB:Drive 2:Video:TV:TV3 - shared series</Tosh5TB>		   	<portable></portable>	<microserverinternal></microserverinternal>
+<name>SourceTV4completedsharedseries</name>	<Tosh5TB>Toshiba5TB:Drive 2:Video:TV:TV4 - completed shared series</Tosh5TB><portable></portable>	<microserverinternal></microserverinternal>
+<name>SourceTV5seriesLiam</name>			<Tosh5TB>Toshiba5TB:Drive 2:Video:TV:TV5 - series Liam</Tosh5TB>			<portable></portable>	<microserverinternal></microserverinternal>
+<name>SourceMusic</name>					<Tosh5TB>Toshiba5TB:Drive 1:Music</Tosh5TB>									<portable></portable>	<microserverinternal></microserverinternal>
+<name>Sourceoddsandendsone</name>			<Tosh5TB>Toshiba5TB:Drive 1:Video:oddsandends</Tosh5TB>						<portable></portable>	<microserverinternal></microserverinternal>
+<name>Sourceoddsandendstwo</name>			<Tosh5TB>Toshiba5TB:Drive 2:Video:oddsandends</Tosh5TB>						<portable></portable>	<microserverinternal></microserverinternal>
+<name>Sourceoddsandendsthree</name>			<Tosh5TB>Toshiba5TB:Drive 1:Video:empty</Tosh5TB>							<portable></portable>	<microserverinternal></microserverinternal>
+<name>Sourceoddsandendsfour</name>			<Tosh5TB>Toshiba5TB:Drive 2:Video:empty</Tosh5TB>							<portable></portable>	<microserverinternal></microserverinternal>
+<name>Sourcesmashingartwork</name>	<default>on Aspire [smb://192.168.1.2/Stuff/Dropbox/smashing/smashingartwork]</default>  <Aspire.windows>local [E:\Dropbox\smashing\smashingartwork]</Aspire.windows>	<option>special path [special://masterprofile/smashing/smashingartwork]</option>		<option.windows>local [E:\Dropbox\smashing\smashingartwork]</option>
+<name>SourceInstallFolder</name>	<default>on Aspire [smb://192.168.1.2/Stuff/XBMC Stuff/Install from here]</default>		<Aspire.windows>local [E:\XBMC Stuff\Install from here]</Aspire.windows>		
+<name>SourceGooglePhotos</name>		<default>on Aspire [smb://192.168.1.2/Stuff/Google Drive/Google Photos]</default>		<Aspire.windows>local [E:\Google Drive\Google Photos]</Aspire.windows>		<option.windows>local [E:\Google Drive\Google Photos]</option>
+<name>SourceTVRecordings</name>		<default>on Aspire [smb://192.168.1.2/BigEdge2/DVB Video]</default>						<Aspire.windows>local [G:\DVB Video]</Aspire.windows>							
+<name>SourceTVTimeshift</name>		<default>on Aspire [smb://192.168.1.2/BigEdge2/DVB Timeshift]</default>					<Aspire.windows>local [G:\DVB Timeshift]</Aspire.windows>
+<name></name>	<default></default>		  <Aspire.windows></Aspire.windows>	<local></local>
+<name></name>	<default></default>		<local></local>  <Aspire.windows></Aspire.windows>
+<name></name>	<default></default>		<local></local>  <Aspire.windows></Aspire.windows>
+<name></name>	<default></default>		<local></local>  <Aspire.windows></Aspire.windows>
+<name></name>	<default></default>		<local></local>  <Aspire.windows></Aspire.windows>
+<name></name>	<default></default>		<local></local>  <Aspire.windows></Aspire.windows>
+<name></name>	<default></default>		<local></local>  <Aspire.windows></Aspire.windows>
